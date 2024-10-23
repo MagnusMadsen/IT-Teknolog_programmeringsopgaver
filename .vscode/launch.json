@@ -6,8 +6,8 @@
       "type": "lldb",
       "request": "launch",
       "args": [],
-      "cwd": "/Users/magnusmadsen/Documents/GitHub/IT-Teknolog_programmeringsopgaver/Opgaver",
-      "program": "/Users/magnusmadsen/Documents/GitHub/IT-Teknolog_programmeringsopgaver/Opgaver/build/Debug/outDebug"
+      "cwd": "/Users/magnusmadsen/Documents/GitHub/IT-Teknolog_programmeringsopgaver/Opgaver/UGE 43",
+      "program": "/Users/magnusmadsen/Documents/GitHub/IT-Teknolog_programmeringsopgaver/Opgaver/UGE 43/build/Debug/outDebug"
     }
   ]
 }
