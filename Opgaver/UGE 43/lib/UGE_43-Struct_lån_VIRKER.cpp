@@ -11,7 +11,6 @@ struct person {
     double formue;
     double indkomst;
     double tlf; 
-    
 
 };
 
@@ -42,8 +41,6 @@ int main () {
 
 double rente;
 double abonnement;
-
-
 
 if (bruger.formue < 100000) { 
         // Sæt rente til 2.5% hvis sandt
