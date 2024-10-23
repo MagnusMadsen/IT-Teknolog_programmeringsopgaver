@@ -13,13 +13,13 @@ struct person {
 
 int main () { 
 
-    person magnus {"Magnus"}; 
+    person bruger {"Magnus"}; 
 
     cout << "Hvad er dit navn? : "; 
-    cin >> magnus.navn; 
+    cin >> bruger.navn; 
     cout << "\n"; 
 
-    cout << "velkommen" << magnus.navn << "\n" << "\n"; 
+    cout << "velkommen" << bruger.navn << "\n" << "\n"; 
 
 
 }
