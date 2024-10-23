@@ -3,13 +3,11 @@
   "configurations": [
     {
       "name": "C/C++ Runner: Debug Session",
-      "type": "cppvsdbg",
+      "type": "lldb",
       "request": "launch",
       "args": [],
-      "stopAtEntry": false,
-      "console": "externalTerminal",
-      "cwd": "c:/Users/Magnu/Documents/GitHub/IT-Teknolog_programmeringsopgaver/Opgaver",
-      "program": "c:/Users/Magnu/Documents/GitHub/IT-Teknolog_programmeringsopgaver/Opgaver/build/Debug/outDebug"
+      "cwd": "/Users/magnusmadsen/Documents/GitHub/IT-Teknolog_programmeringsopgaver/Opgaver",
+      "program": "/Users/magnusmadsen/Documents/GitHub/IT-Teknolog_programmeringsopgaver/Opgaver/build/Debug/outDebug"
     }
   ]
 }
