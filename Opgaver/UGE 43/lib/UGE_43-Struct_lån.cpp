@@ -22,4 +22,6 @@ int main () {
     cout << "velkommen" << bruger.navn << "\n" << "\n"; 
 
 
+
+
 }
