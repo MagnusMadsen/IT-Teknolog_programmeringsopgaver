@@ -6,8 +6,6 @@ using namespace std;
 struct person {
 
     string navn;
-    int tlf; 
-    double formue;
 
 };
 
@@ -20,8 +18,6 @@ int main () {
     cout << "\n"; 
 
     cout << "velkommen" << bruger.navn << "\n" << "\n"; 
-
-
 
 
 }
