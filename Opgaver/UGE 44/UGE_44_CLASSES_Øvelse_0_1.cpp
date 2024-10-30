@@ -1,5 +1,8 @@
 #include <iostream>
 #include <string>
+#include <ctime>
+#include <thread>
+#include <chrono>
 
 using namespace std; 
 
@@ -9,7 +12,6 @@ using namespace std;
 class Kunde {
     
     public:
-
         string navn;
         double indkomst;
         double tlf; 
@@ -39,7 +41,8 @@ void Kunde::rente_intægter () {
         rente = 5; 
     };
 
-    rente_intægt = (formue/100)*rente; 
+    rente_intægt = (formue/100)*rente;
+    formue = formue + rente_intægt;
 }
 
 void Kunde::beregn_abonnement () {
@@ -88,6 +91,17 @@ int main () {
     cout << "Den årlige renteindtægt er " << bruger.rente_intægt << std::endl;
     cout << "Den månedlige abonnement koster " << bruger.abonnement << std::endl;
 
+    std::cout << bruger.formue << std::endl;
+    time_now();
+
+    while (1)
+    {
+        std::this_thread::sleep_for (std::chrono::minutes(1));
+        bruger.rente_intægter();
+        time_now();
+        std::cout << bruger.formue << std::endl;
+    }
+    
 
  return 0;
 
