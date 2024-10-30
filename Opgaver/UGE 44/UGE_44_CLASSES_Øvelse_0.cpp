@@ -71,7 +71,7 @@ int main() {
     cout << "Den månedlige abonnementspris er: " << bruger.abonnement << " kr\n";
 
     // Opdater formue med minutlig renteindtægt
-    int minutter = 5;  // Antal minutter til demonstration
+    int minutter = 5;  // Antal minutter programmet køre
     double minut_rente_intægt = bruger.rente_intægt / (365 * 24 * 60); // Minutlig renteindtægt
 
     for (int i = 0; i < minutter; ++i) {
@@ -82,4 +82,6 @@ int main() {
     }
 
     return 0;
+    
 }
+
