@@ -7,6 +7,11 @@ using namespace std;
 
 
 class Kunde {
+    private: 
+    double formue = 0;
+
+    public: 
+    
  
 };
 
@@ -14,7 +19,7 @@ class Kunde {
 int main () {
   
 
-  
+
 
 
 return 0;
